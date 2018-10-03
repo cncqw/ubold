@@ -1,0 +1,17 @@
+/* =============
+   Print css
+============= */
+
+@media print {
+  #topnav,.page-title-box,.footer{
+    display: none;
+  }
+
+  .wrapper {
+    padding-top: 0;
+  }
+
+  .card-box {
+    padding:  20px 0;
+  }
+}

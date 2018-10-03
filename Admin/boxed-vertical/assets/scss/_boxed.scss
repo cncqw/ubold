@@ -1,0 +1,20 @@
+
+html {
+  background: #dce3e8;
+}
+
+#wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  box-shadow: -2px 3px 25px rgba(0, 0, 0, 0.07);
+}
+
+.topbar,.footer {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.footer {
+  left: 0 !important;
+  text-align: right !important;
+}

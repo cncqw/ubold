@@ -1,0 +1,21 @@
+/* =============
+   Print css
+============= */
+
+@media print {
+  body {
+    min-height: 20px;
+  }
+  #topnav,.footer,.page-title-box {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .left,.right-bar {
+    display: none;
+  }
+  .wrapper {
+    padding: 0 !important;
+  }
+}
